@@ -50,7 +50,7 @@ export default function Calculator() {
     const mid2Scaled = (mid2 / 30) * 20;
     const bestMid = Math.max(mid1Scaled, mid2Scaled);
     const leastMid = Math.min(mid1Scaled, mid2Scaled);
-    const finalMidMarks = 0.8 * bestMid + 0.2 * leastMid;
+    const finalMidMarks = 0.75 * bestMid + 0.25 * leastMid;
 
     const avgAatScore = (aat1 + aat2) / 2;
     const finalAatMarks = (avgAatScore / 10) * 15;
