@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './Calculator.css';
 
 export default function Calculator() {
@@ -190,6 +191,7 @@ export default function Calculator() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
